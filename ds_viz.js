@@ -227,7 +227,7 @@ function updateChart(factor) {
   labels.exit().remove();
 }
 
-d3.csv("data/StudentPerformanceFactors.csv").then(data => {
+d3.csv("StudentPerformanceFactors.csv").then(data => {
   data.forEach(d => {
     d.Exam_Score = +d.Exam_Score;
   });
