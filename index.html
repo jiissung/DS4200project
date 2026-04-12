@@ -47,7 +47,13 @@
             background-color: #2999;
             color: white;
         }
-
+        .btn-container {
+            display: flex;
+            flex-wrap: wrap;            
+            justify-content: center;  
+            gap: 15px;                 
+            margin-top: 20px;
+}
         .btn {
             display: inline-block;
             padding: 10px 20px;
@@ -55,6 +61,7 @@
             color: white;
             text-decoration: none;
             border-radius: 5px;
+            font-weight: bold;
         }
 
         .btn:hover {
@@ -99,13 +106,15 @@
     <h2>Explore Visualizations</h2>
     <p>Navigate to each interactive visualization below:</p>
 
-    <a href="./viz1.html" class="btn">Visualization One</a>
-    <a href="./viz2.html" class="btn">Visualization Two</a>
-    <a href="./viz3.html" class="btn">Visualization Three</a>
-    <a href="./viz4.html" class="btn">Visualization Four</a>
-    <a href="./viz5.html" class="btn">Visualization Five</a>
-    <a href="./conclusions.html" class="btn">conclusions</a>
-    <a href="./references.html" class="btn">references</a>
+    <div class="btn-container">
+        <a href="./viz1.html" class="btn">Visualization One</a>
+        <a href="./viz2.html" class="btn">Visualization Two</a>
+        <a href="./viz3.html" class="btn">Visualization Three</a>
+        <a href="./viz4.html" class="btn">Visualization Four</a>
+        <a href="./viz5.html" class="btn">Visualization Five</a>
+        <a href="./conclusions.html" class="btn">Conclusions</a>
+        <a href="./references.html" class="btn">References</a>
+    </div>
 </section>
 
 </div>
